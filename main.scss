@@ -1,0 +1,167 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -40% 120%, 130% -80%;
+  background-color:  hsl(185, 75%, 39%);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:12em;
+}
+
+.card-background img {
+  display: flex;
+  justify-content: center;
+  height:auto;
+  width:350px;
+  border-radius: 20px 20px 0 0;
+}
+
+.profile-background {
+  background-color: white;
+  width:350px;
+  height: 160px;
+  padding-bottom:4em;
+  position: absolute;
+  z-index: -1;
+  border-bottom: solid 0.5px hsl(0, 0%, 87%);
+}
+
+.profile-image img {
+  border-radius: 50%;
+  border: solid white 0.3em;
+  margin-top:-3em;
+}
+
+.profile-details h1 {
+  display:flex;
+  justify-content: center;
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  margin-top:1em;
+}
+
+.profile-details span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  padding: 0 10px;
+}
+
+.profile-details h2 {
+  font-family: kumbh sans;
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+  font-size: 16px;
+  width: 350px;
+}
+
+.statistics-background {
+  position: absolute;
+  width:350px;
+  height:150px;
+  margin-top:15em;
+  z-index: -2;
+  border-radius: 0 0 20px 20px;
+  background-color: white;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  width:350px;
+  margin-top: 3em;
+  margin-right:10px;
+}
+
+.item-01 {
+  margin-left:2em;
+}
+
+
+.item-01 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: kumbh sans;
+  margin-top: 8px;
+
+}
+
+.item-01 h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-family: kumbh sans;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-top: 0.5em;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+
+.item-02 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: kumbh sans;
+  margin-top:8px;
+}
+
+.item-02 h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-family: kumbh sans;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-top: 0.5em;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+
+.item-03 {
+  margin-right:2em;
+}
+
+.item-03 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: kumbh sans;
+  margin-top:10px;
+}
+
+.item-03 h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-family: kumbh sans;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-top: 0.5em;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 12em, -49em;
+    background-position-y: 20em, -30em;
+    background-color: hsl(185, 75%, 39%);
+  }
+}
